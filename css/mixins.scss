@@ -1,0 +1,60 @@
+/* -------------------------------------- MIXINS ------------------------------------- */
+
+/* ----- MIXINS FONT -----*/
+
+@mixin font-roboto-light() {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+@mixin font-roboto-reg() {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+@mixin font-roboto-bold() {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+@mixin font-lato-bold() {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+
+/* ----- MIXINS FLEXBOX -----*/
+
+@mixin flex-row() {
+  display: flex;
+  flex-direction: row;
+}
+
+@mixin flex-column() {
+  display: flex;
+  flex-direction: column;
+}
+
+@mixin flex-horiz-center-vert-center() {
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flex-horiz-left-vert-center() {
+  justify-content: flex-start;
+  align-items: center;
+}
+
+@mixin flex-horiz-right-vert-center() {
+  justify-content: flex-end;
+  align-items: center;
+}
+
+@mixin flex-horiz-space-between-vert-center() {
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin flex-horiz-left-vert-top() {
+  justify-content: flex-start;
+  align-items: flex-start;
+}
